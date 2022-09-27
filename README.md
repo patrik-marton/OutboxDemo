@@ -8,7 +8,7 @@ Build with the gradle wrapper:
 
     ./gradlew clean build
     
-Ru with docker:
+Run with docker:
 
     docker-compose up
     
