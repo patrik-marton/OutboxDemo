@@ -44,5 +44,7 @@ public class OutboxEventService {
         log.info("Processing the following event : {}.", entity);
 
         outBoxRepository.save(entity);
+        
+        outBoxRepository.delete(entity);
     }
 }
